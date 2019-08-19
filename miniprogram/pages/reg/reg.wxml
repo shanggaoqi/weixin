@@ -1,0 +1,18 @@
+ <view class='header'>
+    <text>欢迎注册康爱多账号 </text>
+</view>
+<form bindsubmit='formSubmit'>
+  <view class='row'>     
+      <input  class= 'info-input1' maxlength="11" minlength="11"name="phone" placeholder="请输入你的手机号" bindinput="blurPhone"/>  
+  </view>
+  <view class='row'>  
+      <input type='password' class= 'info-input' name="pwd" placeholder="请输入你的密码" bindinput="blurpwd"/>  
+  </view>
+  <view class='row'>
+      <input type='password' class= 'info-input'  name="pass" placeholder="请重新输入你的密码" bindinput="blurpass"/> 
+  </view>
+  <view><button class='submit' formType="submit">立即注册</button></view>
+</form>
+
+
+

@@ -1,0 +1,88 @@
+<!--拼团广告 begin-->
+	<view class="fine-puzzle mt30">
+		<view class="floor-title">精品拼团 <text>GROUP</text> <icon></icon></view>	
+		<scroll-view scroll-x="true" class="puzzle-list" id="puzzle_list">
+			<view class="puzzle-li box-sizing">
+				<navigator url="">
+					<view class="puzzle-logo">
+						<text>立省</text>
+						<text>￥307.00</text>
+					</view>
+					<view class="puzzle-img"><image src="/images/sort/puzzle-pro.jpg" alt=""></image></view>
+					<text class="puzzle-name plr20">【包邮】正宗山东东阿阿胶东阿阿胶250g山阿阿胶东阿阿胶250东阿阿胶250g山阿阿胶东阿阿胶250东阿阿胶250g山阿阿胶东阿阿胶250g</text>
+					<view class="puzzle-ft plr20 clearfix">
+						<view class="puzzleft-l fl">
+							<text>￥</text>
+							<text class="puzzle-ll-text2">39.9</text>
+							<text class="puzzle-ll-text3">/2件</text>
+							<text>已售10086</text>
+						</view>
+						<view class="puzzleft-r fr">
+							<text class="box-sizing">3人团</text><text>去开团</text>
+						</view>
+					</view>
+				</navigator>
+			</view>
+			<view class="puzzle-li box-sizing">
+				<navigator url="">
+					<view class="puzzle-logo">
+						<text>立省</text>
+						<text>￥307.00</text>
+					</view>
+					<view class="puzzle-img"><image src="/images/sort/puzzle-pro.jpg" alt=""></image></view>
+					<text class="puzzle-name plr20">【包邮】正宗山东东阿阿胶东阿阿胶250g山阿阿胶东阿阿胶250东阿阿胶250g山阿阿胶东阿阿胶250东阿阿胶250g山阿阿胶东阿阿胶250g</text>
+					<view class="puzzle-ft plr20 clearfix">
+						<view class="puzzleft-l fl">
+							<text>￥</text>
+							<text class="puzzle-ll-text2">39.9</text>
+							<text class="puzzle-ll-text3">/2件</text>
+							<text>已售10086</text>
+						</view>
+						<view class="puzzleft-r fr">
+							<text class="box-sizing">3人团</text><text>去开团</text>
+						</view>
+					</view>
+				</navigator>
+			</view>
+			<view class="puzzle-li box-sizing">
+				<navigator url="">
+					<view class="puzzle-logo">
+						<text>立省</text>
+						<text>￥307.00</text>
+					</view>
+					<view class="puzzle-img"><image src="/images/sort/puzzle-pro.jpg" alt=""></image></view>
+					<text class="puzzle-name plr20">【包邮】正宗山东东阿阿胶东阿阿胶250g山阿阿胶东阿阿胶250东阿阿胶250g山阿阿胶东阿阿胶250东阿阿胶250g山阿阿胶东阿阿胶250g</text>
+					<view class="puzzle-ft plr20 clearfix">
+						<view class="puzzleft-l fl">
+							<text>￥</text>
+							<text class="puzzle-ll-text2">39.9</text>
+							<text class="puzzle-ll-text3">/2件</text>
+							<text>已售10086</text>
+						</view>
+						<view class="puzzleft-r fr">
+							<text class="box-sizing">3人团</text><text>去开团</text>
+						</view>
+					</view>
+				</navigator>
+			</view>
+		</scroll-view>
+	</view>
+<!--拼团广告 end-->
+<!-- 标签页 -->
+<view class="floor-title title1" bindtap="jumpComment1">家庭常备<text>GROUP</text><icon></icon></view>
+<view class="floor-title title2" bindtap="jumpComment2">母婴乐园<text>GROUP</text><icon></icon></view>
+<view class="floor-title title3" bindtap="jumpComment3">滋补保健<text>GROUP</text><icon></icon></view>
+<view class="floor-title title4" bindtap="jumpComment4">器械商城<text>GROUP</text><icon></icon></view>
+<!--横幅图片广告-2 begin-->
+	<view class="guid mt30"><navigator url=""><image style='height:250rpx;width:100%'src="/images/sort/guid.jpg" alt=""></image></navigator></view>
+<!--横幅图片广告-2 end-->
+<!--健康精选 begin-->
+	<view class="health-select mt30">
+		<view class="floor-title">健康精选 <text>FOCUS</text></view>	
+		<view class="heal-list">
+			<navigator><image src="/images/sort/health2.jpg" style='width:100%'></image></navigator>
+			<navigator><image src="/images/sort/health1.jpg" style='width:100%'></image></navigator>
+			<navigator><image src="/images/sort/health3.jpg" style='width:100%'></image></navigator>
+		</view>
+	</view>
+<!--健康精选 end-->

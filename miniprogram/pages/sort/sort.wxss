@@ -1,0 +1,140 @@
+/*公用title begin*/
+.floor-title {
+    height: 96rpx;
+    line-height: 96rpx;
+    text-align: center;
+    color: #222;
+    font-size: 34rpx;
+    font-weight: bold;
+    position: relative;
+    background-color: white;
+    
+}
+.floor-title text {
+    color: #b9e1f0;
+    font-size: 30rpx;
+    padding-right: 14rpx;
+}
+.floor-title icon{
+  position: absolute;
+    top: 40rpx;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border-top: 10rpx solid transparent;
+    border-bottom: 10rpx solid transparent;
+    border-left: 10rpx solid #222222;
+}
+/*公用title end*/
+.title1,.title2,.title3,.title4{
+  float: left;
+  width:40%;
+  height:110rpx;
+  margin-left:7%;
+}
+/*拼团begin*/
+.fine-puzzle{background-color: white;}
+.puzzle-list{
+    padding-bottom: 30rpx;
+    display: flex;
+    white-space: nowrap;
+}
+.puzzle-list .puzzle-li{
+  width: 83.2%;
+  margin-left: 4%;
+  border: 1px solid #f6f6f6;
+  position: relative;
+  display: inline-block;
+}
+.puzzle-list .puzzle-li:last-child{margin-right: 4%;}
+.puzzle-logo{
+  position: absolute;
+  width: 140rpx;
+  height: 100rpx;
+  /* background: url(/images/puzzle-logo.png) no-repeat; */
+  background-size: 100%;
+  top: 0;
+  right: 16rpx;
+  color: white;
+  text-align: center;
+  line-height: 32rpx;
+}
+.puzzle-logo text{display: block;}
+.puzzle-logo text:first-child{
+  font-size: 24rpx;
+  margin-top: 8rpx;
+  margin-bottom: 2rpx;
+}
+.puzzle-logo text:last-child{
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.puzzle-img,.puzzle-img image{
+  width: 100%;
+  height: 333rpx;
+}
+.plr20{
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.puzzle-name{
+    font-size: 30rpx;
+    line-height: 40rpx;
+    font-weight: bold;
+    color: #222222;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.puzzle-ft{
+  height: 70rpx;
+  line-height: 70rpx;
+  margin-bottom: 22rpx;
+}
+.puzzleft-l{width: 55%;float:left;}
+.puzzleft-l text{
+ 
+  color: #555555;
+  font-size: 22rpx;
+}
+.puzzleft-l text:first-child{color: #ff6600;}
+.puzzleft-l text.puzzle-ll-text2{
+  color: #ff6600;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.puzzleft-l text.puzzle-ll-text3{margin-right: 18rpx;}
+.puzzleft-r{width: 45%; float: left;}
+.puzzleft-r text{
+ 
+  display: block;
+  text-align: center;
+}
+.puzzleft-r text:first-child{
+   width: 42%; 
+  height: 70rpx;
+  line-height: 64rpx;
+  background-color: white;
+  font-size: 30rpx;
+  color: #ff6600;
+  border-top: 1px dashed #ff6600;
+  border-bottom: 1px dashed #ff6600;
+  border-left: 1px dashed #ff6600;
+  float:left;
+}
+.puzzleft-r text:last-child{
+  height: 72rpx;
+  background-color: #ff6600;
+  color: white;
+  font-size: 32rpx;
+}
+/*拼团end*/
+.heal-list navigator,.heal-list navigator image {
+    height: 260rpx;
+}

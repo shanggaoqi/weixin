@@ -1,0 +1,167 @@
+<view></view>
+<!--顶部搜索 begin-->
+<view class="search" >
+    <view class="search-inner">
+      <view class="search-l" >
+         <image src='/images/index/footer-list.png' style='width:25px;height:18px'></image> 
+        <text>频道</text>
+      </view>
+      <view class="search-r">
+        <input type="text" placeholder="搜索康康药品/器械/常备药品"></input>
+      </view>
+      <image class='search-img' src='/images/index/search_logo.png' style='width:20px;height:20px'></image> 
+    </view>
+</view> 
+<!-- 轮播图 -->
+<swiper class="slide" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <view wx:for="{{imgUrls}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </view>
+</swiper>
+<!-- 文字广告 -->
+<view class='a3'>
+  <view class='a' wx:for="{{list}}" wx:key="index">
+  <!--wx:for是微信数据绑定的一种方式，该数组有多少数据就显示多少个view-->
+      <!--index为每个数据对应的下标
+      <!--item就相当于数组名+下标的结合体，适用于调用数组所有数据-->
+      <view><image src="{{item.fileID}}" class="a1"></image></view>
+      <view class="a2">{{item.text}}</view>   
+  </view>
+</view>
+<!-- 特惠 -->
+<view class='b'>
+  <image class='b1'src='/images/index/tehui.png'></image>
+  <view class='b2'>【特惠】全场满39元包邮。</view>
+</view>
+<!--秒杀模块 begin-->
+	<view class="skill mt100" id="skill_sec">
+		<view class="skill-top clearfix">
+			<view class="skillt-l fl"><image src="/images/index/skill-logo.png" alt=""></image></view>
+			<view class="skillt-m fl" id="skill_timeout">21点场<text>00</text>:<text>00</text>:<text>00</text></view>
+			<view class="skillt-r fr"><navigator>1元秒健康<icon></icon></navigator></view>
+		</view>
+		<scroll-view scroll-x="true" class="skill-list" id="skill_list">
+			<view class="skill-li">
+				<navigator url="">
+					<view class="skill-promotion">1.4折</view>
+					<view class="skill-img"><image src="/images/index/skill-pro.jpg" alt=""></image></view>
+					<view class="skill-vipprice">￥<text>39.00</text></view>
+					<view class="skill-marprice">￥149.00</view>
+				</navigator>
+			</view>
+			<view class="skill-li">
+				<navigator url="">
+					<view class="skill-promotion">1.4折</view>
+					<view class="skill-img"><image src="/images/index/skill-pro.jpg" alt=""></image></view>
+					<view class="skill-vipprice">￥<text>39.00</text></view>
+					<view class="skill-marprice">￥149.00</view>
+				</navigator>
+			</view>
+			<view class="skill-li">
+				<navigator url="">
+					<view class="skill-promotion">1.4折</view>
+					<view class="skill-img"><image src="/images/index/skill-pro.jpg" alt=""></image></view>
+					<view class="skill-vipprice">￥<text>39.00</text></view>
+					<view class="skill-marprice">￥149.00</view>
+				</navigator>
+			</view>
+			<view class="skill-li">
+				<navigator url="">
+					<view class="skill-promotion">1.4折</view>
+					<view class="skill-img"><image src="/images/index/skill-pro.jpg" alt=""></image></view>
+					<view class="skill-vipprice">￥<text>39.00</text></view>
+					<view class="skill-marprice">￥149.00</view>
+				</navigator>
+			</view>
+			<view class="skill-li">
+				<navigator url="">
+					<view class="skill-promotion">1.4折</view>
+					<view class="skill-img"><image src="/images/index/skill-pro.jpg" alt=""></image></view>
+					<view class="skill-vipprice">￥<text>39.00</text></view>
+					<view class="skill-marprice">￥149.00</view>
+				</navigator>
+			</view>
+			<view class="skill-li">
+				<navigator url="">
+					<view class="skill-promotion">1.4折</view>
+					<view class="skill-img"><image src="/images/index/skill-pro.jpg" alt=""></image></view>
+					<view class="skill-vipprice">￥<text>39.00</text></view>
+					<view class="skill-marprice">￥149.00</view>
+				</navigator>
+			</view>
+		</scroll-view>
+	</view>
+<!--秒杀模块 end-->
+
+<!--热门专题 begin-->
+	<view class="some-room mt30 clearfix">
+		<view class="sroom-l box-sizing fl"><image src="/images/index/newuser.jpg" alt=""></image></view>
+		<view class="sroom-r fr">
+			<view><navigator url=""><image style='width:230px' src="/images/index/ppweek.jpg" alt=""></image></navigator></view>
+			<view><navigator url=""><image style='width:230px' src="/images/index/jfsc.jpg" alt=""></image></navigator></view>
+		</view>
+	</view>
+<!--热门专题 end-->
+
+<!--横幅图片广告-1 begin-->
+<view class="guid mt30"><navigator url=""><image src="/images/index/guid.jpg" alt=""></image></navigator></view>
+<!--横幅图片广告-1 end-->
+<!--猜你喜欢 begin-->
+<view class="seclist">
+	<view class="user-like">
+		<view class="like-top">
+      <view class="liketop-line1"></view>
+      <image src='/images/index/likestar.png' style='width:26rpx;height:22rpx;margin-left:90px'></image>
+			<view class="liketop-name">猜你喜欢</view>
+			<view class="liketop-line2"></view>
+		</view>
+		<view class="like-list clearfix" >
+			<navigator class="like-lilf" >
+				<view class="likepro-img"><image src="/images/index/likepro.jpg" alt=""></image></view>
+				<view class="likepro-name plr26 text-elli">鱼跃 制氧机 YU300 1台</view>
+				<view class="likepro-price clearfix plr26"><text class="fl">￥<text>39.9</text></text><text class="fr">￥59.9</text></view>
+			</navigator>
+			<navigator url="">
+				<view class="likepro-img"><image src="/images/index/likepro.jpg" alt=""></image></view>
+				<view class="likepro-name plr26 text-elli">鱼跃 制氧机 YU300 1台</view>
+				<view class="likepro-price clearfix plr26"><text class="fl">￥<text>39.9</text></text><text class="fr">￥59.9</text></view>
+			</navigator>
+			<navigator class="like-lilf" url="">
+				<view class="likepro-img"><image src="/images/index/likepro.jpg" alt=""></image></view>
+				<view class="likepro-name plr26 text-elli">鱼跃 制氧机 YU300 1台</view>
+				<view class="likepro-price clearfix plr26"><text class="fl">￥<text>39.9</text></text><text class="fr">￥59.9</text></view>
+			</navigator>
+			<navigator url="">
+				<view class="likepro-img"><image src="/images/index/likepro.jpg" alt=""></image></view>
+				<view class="likepro-name plr26 text-elli">鱼跃 制氧机 YU300 1台</view>
+				<view class="likepro-price clearfix plr26"><text class="fl">￥<text>39.9</text></text><text class="fr">￥59.9</text></view>
+			</navigator>
+		</view>
+	</view>
+	<view class="load-more clearfix">
+		<view class="spinner fl">
+					<view class="spinner-container container1">
+							<view class="circle1"></view>
+							<view class="circle2"></view>
+							<view class="circle3"></view>
+							<view class="circle4"></view>
+					</view>
+					<view class="spinner-container container2">
+							<view class="circle1"></view>
+							<view class="circle2"></view>
+							<view class="circle3"></view>
+							<view class="circle4"></view>
+					</view>
+					<view class="spinner-container container3">
+							<view class="circle1"></view>
+							<view class="circle2"></view>
+							<view class="circle3"></view>
+							<view class="circle4"></view>
+					</view>
+			</view>
+		<view class="load-cont fl">康康正在努力为你加载更多...</view>
+	</view>
+</view>

@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sort/sort",
+    "pages/cart/cart",
+    "pages/weixin/weixin",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/family/family",
+    "pages/mom/mom",
+    "pages/health/health",
+    "pages/appliance/appliance"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#83B9F5",
+    "navigationBarTitleText": "康爱多微商城",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+   
+    "selectedColor": "#83B9F5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home/1.png",
+        "selectedIconPath": "images/home/1_active.png"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "分类",
+        "iconPath": "images/home/2.png",
+        "selectedIconPath": "images/home/2_active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "images/home/3.png",
+        "selectedIconPath": "images/home/3_active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我",
+        "iconPath": "images/home/4.png",
+        "selectedIconPath": "images/home/4_active.png"
+      }
+    ]
+  }
+}

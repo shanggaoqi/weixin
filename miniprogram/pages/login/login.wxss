@@ -1,0 +1,53 @@
+.header{
+  margin-top:300rpx;
+}
+.header text{
+  font-size: 25px;
+  color: #666;
+}
+form{
+  margin-top:25rpx;
+  width: 310px;
+  height: 260px;
+  line-height: 28px;
+  /* border: 1px solid red;  */
+}
+input{
+  margin-top:18rpx;
+  border: 1px solid #ccc;
+  width: 293px;
+  height: 28px;
+  font-size: 15px;
+  color: #ccc;
+  font-family: '微软雅黑';
+  padding-left:25rpx;
+}
+.section{
+  margin-top: 15px;
+}
+button{
+  margin-top: 30px;
+  background-color: #2D8EF3;
+  border-radius:10rpx; 
+  color:#fff;
+}
+form text{
+  font-size: 15px;
+  color: #666;
+  font-family: '微软雅黑';
+}
+
+.fpwd{
+  margin-left:280rpx;
+  font-size: 14px;
+  color: #2D8EF3;
+}
+.mfzc{
+  margin-top: 50rpx;
+  margin-right:18rpx;
+}
+
+.mfzc text{
+  color: #ccc;
+  font-size: 18px;
+}

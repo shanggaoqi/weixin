@@ -1,0 +1,55 @@
+page{
+    background-color:#EBEBEB;
+}
+.a1{
+    width:100%;
+    height: 50px;
+    line-height:50px;
+    font-size:35rpx;
+    font-weight: bold;
+    background: #dadada;
+    color: #666666;
+    text-align: center;
+} 
+.img1{
+  height:240rpx;
+  width:240rpx;
+  margin-top:100rpx;
+  margin-left:100rpx;
+  margin-bottom:40rpx;
+}
+.a2{
+  position:relative;
+}
+.a3{
+  display:inline;
+  font-size: 27rpx;
+  position:absolute; 
+  top:216rpx;left:400rpx;
+}
+.a4{
+  /* position:absolute; 
+  top:156rpx;left:370rpx;  */
+  margin-left:1rpx;
+  display:inline;
+  font-size: 27rpx;
+  color:#F24E4E;
+}
+.img2{
+   height:100rpx;
+   width:100rpx;
+}
+.img3{
+  margin-left:24rpx;
+}
+.a{
+  margin-top:30rpx;
+  margin-left:145rpx;
+  width:170rpx;
+  float:left;
+}
+.a5{
+  font-size: 29rpx;
+  font-family: "微软雅黑";
+  color:#666;
+}

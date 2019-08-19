@@ -1,0 +1,26 @@
+<view class="a1"> 我的账号</view>
+<view class="a2">
+  <image class="img1" src='/images/my/1.jpg'></image> 
+  <view class="a3">
+     您好,请
+     <view class="a4" bindtap='login'>登录 !</view>
+  </view> 
+</view>
+<view>
+  <view class="a">
+    <image class="img2" src='/images/my/2.png'></image>
+    <view class="a5">我的订单</view>
+  </view>
+  <view class="a">
+    <image class="img2 img3" src='/images/my/3.png'></image>
+    <view class="a5">我的优惠券</view>
+  </view>
+  <view class="a">
+    <image class="img2" src='/images/my/4.png'></image>
+    <view class="a5">我的积分</view>
+  </view>
+  <view class="a">
+    <image class="img2 img3" src='/images/my/5.png'></image>
+    <view class="a5">会员俱乐部</view>
+  </view>
+</view>

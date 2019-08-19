@@ -1,0 +1,4 @@
+<!--pages/weixin/weixin.wxml-->
+<text>pages/weixin/weixin.wxml</text>
+<image class='search-img' src='/images/cart/1.jpeg'></image> 
+

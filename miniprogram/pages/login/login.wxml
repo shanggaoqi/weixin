@@ -1,0 +1,20 @@
+<view class='container'>
+  <view class='header'>
+    <text>康爱多欢迎您登录</text>
+  </view>
+  <form bindsubmit="formSubmit">
+    <view class='section'>
+      <text>登录名：</text>
+      <input type='number' placeholder='用户名/邮箱/手机号' name="phone" />
+    </view>
+    <view class='section'>
+      <text>登录密码:</text> <text class='fpwd'>忘记登录密码?</text>
+      <input password='true' placeholder='请输入密码' name="pwd" />
+    </view>  
+      <button>登录</button>
+  </form>
+    <view class='mfzc' bindtap='reg'>
+      <text>免费注册</text>
+    </view>
+</view>
+
